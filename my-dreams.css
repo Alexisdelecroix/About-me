@@ -15,11 +15,6 @@
     font-family: 'Bebas Neue', sans-serif;
 }
 
-.activeAbout{
-    color: red;
-}
-
-
 .containerAbout{
     width: 100%;
     display: flex;
@@ -28,28 +23,32 @@
 
 }
 
+.activeDreams{
+    color: red;
+}
+
 
 .block1{
     width: 33%;
 }
 
 .block1 h2{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Bitter', serif;
 }
 
-.block1 ul{
+.block1 ol{
     margin-top: 25px;
     display: flex;
     flex-direction: column;
     row-gap: 12px;
 }
 
-.block1 ul li{
-    list-style: none;
+.block1 ol li{
+
 }
 
 
-.block1 ul li i{
+.block1 ol li i{
     margin-left: 20px;
     font-size: 20px;
     margin-right: 10px;
@@ -63,19 +62,18 @@
 }
 
 .block2 h2{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Bitter', serif;
 }
 
 
-.block2 ul{
+.block2 ol{
     margin-top: 25px;
     display: flex;
     flex-direction: column;
     row-gap: 12px;
 }
 
-.block2 ul li{
-    list-style: none;
+.block2 ol li{
     margin-left: 20px;
 }
 
@@ -87,18 +85,19 @@
 }
 
 .block3 h2{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Bitter', serif;
 }
 
-.block3 table{
+.block3 ul{
     margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
 }
 
-.block3 td, th {border:  1px solid;
-    padding: 10px;
-    min-width: 150px;
-    background: white;
-    box-sizing: border-box;
-    text-align: left;
+.block3 ul li{
+    margin-left: 20px;
 }
+
+
 

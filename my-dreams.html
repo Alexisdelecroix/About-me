@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About-me</title>
+    <link rel="stylesheet" href="my-dreams.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,9 +20,15 @@
       rel="stylesheet"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -43,35 +50,51 @@
       <ul>
         <li><a href="index.html">Accueil</a></li>
         <li><a href="about-me.html">A propos</a></li>
-        <li><a href="my-dreams.html">Mon rêve</a></li>
+        <li><a class="activeDreams" href="my-dreams.html">Mon rêve</a></li>
         <li><a href="my-passions.html">Mes passions</a></li>
+        <li>
+          <a href="images/Cv Delecroix Alexis Web.pdf" target="_blank">CV</a>
+        </li>
       </ul>
     </nav>
 
-    <section>
-      <h1>Mon Profil</h1>
+    <section class="about-me">
+      <h1>Mes rêves d'apprenant</h1>
+      <div class="containerAbout">
+        <div class="block1">
+          <h2>Mes objectifs personnels</h2>
+          <ol>
+            <li>Valider mon titre pro DWWM</li>
+            <li>Maitrise du JavaScript</li>
+            <li>Maitrise de figma</li>
+            <li>Maitrise de l'HTML5 ET CSS3</li>
+            <li>Maitriser les bases de données</li>
+          </ol>
+        </div>
+        <div class="block2">
+          <h2>Mes objectifs professionnels</h2>
+          <ol>
+            <li>Devenir Développeur web et web mobile</li>
+            <li>Evoluer dans ma future entreprise</li>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+            <li>laboriosam distinctio esse consequatur</li>
+          </ol>
+        </div>
 
-      <div class="container">
-        <a href="images/tanjiro.png" target="_blank"
-          ><img src="images/tanjiro-mini.png" alt="Photo de tanjiro"
-        /></a>
-        <div class="blockaboutme">
-          <span>Delecroix Alexis</span>
-          <p>
-            Bonjour, âgé de 27 ans en reconvertion
-            professionnelle depuis mars 2022. J'ai décidé de m'orienter vers le
-            développement web après avoir découvert la nurserie du numérique.
-            Cette expérience m'a fasciné par le potentiel infini du
-            développement web et de pouvoir prendre une idée et la transformer
-            en un site web fonctionnel grâce aux langages de programmation.
-            J'aime aussi me challenger notamment dans la résolution de problèmes
-            techniques.
-          </p>
+        <div class="block3">
+          <h2>Mon engagement</h2>
+          <ul>
+            <li>Travailler 1h par jour à la maison</li>
+            <li>Faire des veilles technologique</li>
+            <li>Lorem ipsum dolor sit amet consectetur</li>
+            <li>laboriosam distinctio esse consequatur</li>
+          </ul>
         </div>
       </div>
     </section>
 
     <footer>
+        <div class="blockFooter">
       <ul>
         <li>
           <a href="https://github.com/Alexisdelecroix" target="_blank"
@@ -92,6 +115,8 @@
           <a href="tel:0626947481"><i class="fa-solid fa-phone"></i></a>
         </li>
       </ul>
+    </div>
+    <div><span>Delecroix Alexis</span></div>
     </footer>
     <script
       src="https://kit.fontawesome.com/dabffbf866.js"

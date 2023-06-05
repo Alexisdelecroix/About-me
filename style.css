@@ -67,7 +67,6 @@ nav ul li:hover{
 }
 
 
-
 nav ul li a{
     transition: 1s;
     color: white;
@@ -79,6 +78,10 @@ nav ul li a:hover{
     color: black;
 }
 
+.activeIndex{
+    color: red;
+}
+
 section{
     width: 90%;
     margin: auto;
@@ -88,8 +91,8 @@ section{
 section h1{
     text-align: center;
     margin: 15px 0px;
-    font-family: 'Bitter', serif;
-    font-size: 1.5em;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2em;
 }
 
 .container{
@@ -148,4 +151,14 @@ footer ul li{
 footer ul li i{
     font-size: 35px;
     color: rgb(77, 1, 77);
+}
+
+footer span{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+
+.blockFooter{
+    margin-top: 20px;
 }
